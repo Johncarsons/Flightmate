@@ -17,14 +17,15 @@ import com.example.flightmate.navigation.NavGraph
 import com.example.flightmate.components.BottomNavigationBar
 import com.example.flightmate.ui.theme.FlightMateTheme
 
-class MainActivity : ComponentActivity() {
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        setContent {
-            FlightMateApp()
-        }
-    }
-}
+//class MainActivity : ComponentActivity() {
+//    override fun onCreate(savedInstanceState: Bundle?) {
+//        super.onCreate(savedInstanceState)
+//        setContent {
+//            FlightMateApp()
+//        }
+//    }
+//}
+
 
 @SuppressLint("UnusedMaterialScaffoldPaddingParameter")
 @Composable
